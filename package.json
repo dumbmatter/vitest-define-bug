@@ -1,0 +1,19 @@
+{
+  "name": "vitest-define-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run",
+    "test-browser": "vitest --run --config vitest.config-browser.ts",
+		"postinstall": "pnpm playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "@vitest/browser-playwright": "^4.0.5",
+    "vitest": "^4.0.5"
+  }
+}
